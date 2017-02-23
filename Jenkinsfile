@@ -8,7 +8,7 @@ pipeline {
             }
             steps {
                 sh 'echo hello2'
-                sh 'echo world2
+                sh 'echo world2'
            }
         }
         stage('world') {
